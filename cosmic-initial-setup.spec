@@ -1,6 +1,6 @@
 %undefine _debugsource_packages
 #define         appname com.system76.CosmicPlayer
-Name:           COSMIC Initial Setup 
+Name:           cosmic-initial-setup
 Version:        1.0.0
 %define beta beta.4
 Release:        %{?beta:0.%{beta}.}1
