@@ -30,10 +30,10 @@ mkdir .cargo
 cp %{SOURCE2} .cargo/config
 
 %build
-cargo build
+%cargo_build
 
 %install
-just rootdir=%{buildroot} prefix=%{_prefix} install
+#just rootdir=%{buildroot} prefix=%{_prefix} install
 
 %files
 %license LICENSE
