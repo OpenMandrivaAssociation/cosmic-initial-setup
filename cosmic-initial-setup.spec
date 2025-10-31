@@ -28,6 +28,7 @@ BuildRequires:  pkgconfig(glib-2.0)
 %autosetup -n %{name}-epoch-%{version}%{?beta:-%{beta}} -a1 -p1
 mkdir .cargo
 cp %{SOURCE2} .cargo/config
+%cargo_prep -v vendor
 
 %build
 %cargo_build
