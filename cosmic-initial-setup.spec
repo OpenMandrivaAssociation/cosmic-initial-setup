@@ -14,18 +14,12 @@ Source2:        cargo_config
 
 BuildRequires:  rust-packaging
 BuildRequires:  clang-devel
+BuildRequires:  curl
 BuildRequires:  just
 BuildRequires:  pkgconfig
-BuildRequires:  pkgconfig(alsa)
-BuildRequires:  pkgconfig(libavcodec)
-BuildRequires:  pkgconfig(libavdevice)
-BuildRequires:  pkgconfig(libavfilter)
-BuildRequires:  pkgconfig(libavformat)
 BuildRequires:  pkgconfig(xkbcommon)
 BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  pkgconfig(gstreamer-1.0)
-BuildRequires:  pkgconfig(gstreamer-plugins-base-1.0)
-BuildRequires:  pkgconfig(gstreamer-video-1.0)
+
 
 %description
 %{summary}.
